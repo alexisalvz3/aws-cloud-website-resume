@@ -3255,6 +3255,35 @@ input, select, textarea {
 
 	}
 
+	/* Styling for the Download CV button */
+.download-btn {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    text-transform: uppercase; /* Uppercase text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    /*font-weight: bold; /* Bold text */
+	font-size: large;
+    letter-spacing: 1px; /* Spacing between letters */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 15px; /* Margin to the right */
+}
+
+.download-btn:hover {
+    background-color: #23272b; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.download-btn:active {
+    transform: translateY(0); /* Remove lift on click */
+    background-color: #1d2124; /* Even darker shade on click */
+}
+
+
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
