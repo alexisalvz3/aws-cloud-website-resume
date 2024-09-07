@@ -3283,7 +3283,51 @@ input, select, textarea {
     background-color: #1d2124; /* Even darker shade on click */
 }
 
+.achievements {
+	font-family: Arial, sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  .section-subtitle {
+	color: #888;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 5px;
+  }
+  
+  .section-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+  }
+  
+  .icon-award {
+	margin-right: 10px;
+  }
+  
+  .certification-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .certification-list li {
+	margin-bottom: 10px;
+	font-size: 16px;
+  }
+  
+  .icon-trophy {
+	margin-right: 10px;
+	color: #ffd700;
+  }
 
+  .award-icon {
+	width: 24px;  /* Adjust this value as needed */
+	height: auto; /* Maintains aspect ratio */
+	vertical-align: middle;
+  }
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
